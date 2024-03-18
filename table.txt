@@ -1,0 +1,10 @@
++------------------+--------------+------+-----+-------------------+----------------+
+| Field            | Type         | Null | Key | Default           | Extra          |
++------------------+--------------+------+-----+-------------------+----------------+
+| reservation_id   | int(11)      | NO   | PRI | NULL              | auto_increment |
+| guest_name       | varchar(100) | NO   |     | NULL              |                |
+| mobile_no        | varchar(10)  | NO   |     | NULL              |                |
+| room_no          | varchar(3)   | NO   |     | NULL              |                |
+| reservation_date | timestamp    | NO   |     | CURRENT_TIMESTAMP |                |
++------------------+--------------+------+-----+-------------------+----------------+
+5 rows in set (0.03 sec)
